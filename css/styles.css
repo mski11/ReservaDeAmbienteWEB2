@@ -1,0 +1,81 @@
+.header{
+  position: fixed;
+  color:black;
+  top:10px;
+  left:650px;
+}
+
+.tabela{
+  position: fixed;
+  top: 190px;
+  left: 550px;
+  float: left;
+}
+.tablePedidos{
+  position: fixed;
+  left:1200px;
+  top: 190px;
+}
+.criaUsuarioform{
+  position: fixed;
+  left: 590px;
+  top: 100px;
+
+}
+.login{
+  position: fixed;
+  left: 550px;
+  top: 300px;
+}
+.senhaLogin{
+  position: fixed;
+  left: 550px;
+  top: 330px;
+}
+.btnLogin{
+  position: fixed;
+  left: 600px;
+  top: 360px;
+}
+.imagemLogin{
+  position: fixed;
+  top: 80px;
+  left: 460px;
+}
+.botoesCima{
+  position: fixed;
+  right:490px;
+  top:0px;
+
+}
+.botaoRegistraUsuario{
+  position: fixed;
+  top:500px;
+  left:640px;
+}
+.addItem{
+  position: fixed;
+  top: 200px;
+  left: 800px;
+}
+.botoesCima ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.botoesCima li{
+  float: left;
+}
+.botoesCima li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.botoesCima li a:hover{
+  background-color: #111;
+}
