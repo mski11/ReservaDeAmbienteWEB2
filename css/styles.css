@@ -24,40 +24,68 @@
 .bordaAdminDemonstracao{
   position: fixed;
   left:530px;
-  top: 250px;
+  top: 200px;
   border-color: #111;
   float: left;
   padding-top:10px;
   padding-bottom:10px;
   width: 25%;
-  height: 35%;
+  height: 40%;
+  border-style: double;
+  border-color: black;
+  background-color: #333
 }
+.descricao h1{
+  position: relative;
+  top: -50px;
+  font-size: 15px;
+  color: white;
+}
+.conteudoDescricao h1{
+  border-style: double;
+  padding:10px;
+  position: relative;
+  top: -50px;
+  font-size: 15px;
+  color: white;
+
+}
+
 .solicitadoPor h1{
   font-size: 15px;  
+  color: white;
+
 }
 
 .solicitou{
-  border-style: solid;
   width: 35%;
+  color: white;
+
 }
 .solicitou h1{
-  font-size: 25px;
-  left: 
+  font-size: 25px; 
+    color: white;
+
 }
 .salaSelecionadaADM{
   position: relative;
   left: 250px;
   top: -70px;
+    color: white;
+
 }
 .salaSelecionadaADM h1{
 font-size: 15px;
+  color: white;
+
 }
 .nomeSalaPedidoAdm{
 position: relative;
   left: 250px;
   top: -68px;
-  border-style: solid;
   width: 22%;
+    color: white;
+
 }
 .nomeSalaPedidoAdm h1{
   font-size: 25px;
@@ -90,7 +118,7 @@ position: relative;
 }
 .botoesCima{
   position: fixed;
-  right:490px;
+  right:460px;
   top:0px;
 
 }
@@ -124,4 +152,14 @@ position: relative;
 
 .botoesCima li a:hover{
   background-color: #111;
+}
+.botaoAceitar{
+  position: fixed;
+  top: 480px;
+  left: 570px;
+}
+.botaoRejeitar{
+  position: fixed;
+  top: 480px;
+  left: 740px;
 }
