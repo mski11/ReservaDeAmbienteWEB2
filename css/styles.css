@@ -56,7 +56,11 @@
   color: white;
 
 }
+.solicitou h1{
+    font-size: 25px;  
+  color: white;
 
+}
 
 .solicitadoPor h1{
   font-size: 15px;  
@@ -64,16 +68,48 @@
 
 }
 
-.solicitou{
+.horarioDemonstracao{
   width: 35%;
   color: white;
 
 }
-.solicitou h1{
+.horarioDemonstracao h1{
   font-size: 25px; 
     color: white;
 
 }
+
+.horarioReserva{
+  width: 35%;
+  color: white;
+
+}
+.horarioReserva time{
+  font-size: 25px; 
+    color: white;
+
+}
+.data{
+  position: relative;
+  left: 250px;
+  top: -70px;
+    color: white;
+
+}
+.data h1{
+font-size: 15px;
+  color: white;
+
+}
+.dataReserva{
+position: relative;
+  left: 250px;
+  top: -68px;
+  color: white;
+  
+
+}
+
 .salaSelecionadaADM{
   position: relative;
   left: 250px;
