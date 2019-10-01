@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/montserrat-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('/font/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/font/montserrat-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/font/montserrat-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/font/montserrat-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/font/montserrat-v14-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+.logo{
+
+	top:0px;
+	left:10px;
+	max-width:200px;
+	max-height:150px;
+	width: auto;
+	height: auto;
+}
+
+.tudo{
+	margin: 0 auto;
+	height:600px;
+}
+
+.topo{
+	width: 100%;
+	height: 110px;
+	background-color: #1E9585;
+	padding: 5px 0 0 0;
+}
+.topoadmin{
+	width: 100%;
+	height: 110px;
+	background-color: #ECECEC;
+	padding: 5px 0 0 0;
+}
+
+.rectangle {  
+	width: 120px;
+	float: left;
+}
+.rectangle2{
+	width: 400px;
+	height: 110px;
+	float: left;
+}
+.reserve {
+	width: 260px;
+	float: left;
+}
+.reserve h1{
+    
+    top: 12px;
+    font-family: 'Arial';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
+
+.form-login {
+	float:right;
+	padding: 27px 20px 0 0;
+}
+.form-login .usuario{
+    float:left;
+	width: 120px;
+	background: #fff url(../img/user.png) no-repeat left;
+    padding: 0 0 0 30px;
+	margin: 0 5px;	
+}
+.form-login .senha{
+    float:left;
+	width: 120px;
+	background: #fff url(../img/user.png) no-repeat left;
+    padding: 0 0 0 30px;
+	margin: 0 5px;
+}
+.form-login .botao{
+    float:left;
+	width: 55px;
+	font: 11px arial;
+	height: 34px;
+	margin: 0 5px;
+}
+.form-login .esqueci{
+	text-align:center;
+	color: #fff;
+}
+.form-login .esqueci a{
+	color: #fff;
+	text-decoration: none;
+}
+.adminlogo{
+	float: left;
+	width: 60px;
+}
+.adminlogo h1{
+	float: left;
+}
+.adminlogo img{
+	padding: 5px;
+
+}
+.topoadmin .informacoes{
+	width: 200px;
+}
+.topoadmin .informacoes h4, .topoadmin .informacoes h6{
+	color: #1E9585;
+	margin: 5px 0px;
+}
+ .topoadmin .informacoes h6{
+	line-height: 15px;
+ }
+ .topoadmin .botoesajudasair{
+	 width: 200px;
+
+ }
+ .topoadmin .botaorelata,.topoadmin .botaosai{
+	width: 150px;
+	height: 60px;
+
+ }
+.conteudo	{
+	width: 100%;
+	float:left;
+	border-top: 0px;
+}
+.conteudo .texto{
+	width: 45%;
+    float: left;
+    border-left: 3px solid #1E9585;
+    padding: 0 20px;
+    margin: 20px;
+}
+
+.conteudo .texto p{
+	color: #1E9585;
+	font-weight: bold;
+}
+
+.formulario{
+    float:right;
+	width: 45%;
+}
+
+.formulario .form-horizontal{
+	width: 240px;
+    margin: 10px auto;
+}
+
+
+.formulario .form-horizontal .registrese{
+    text-align:center;
+	font: 16px Arial;
+	color: #1E9585;
+    font-weight: bold;
+	padding: 10px 5px;
+}
+
+
+.formulario .form-horizontal input{
+	width: 230px;
+}
+.formulario .form-horizontal textarea{
+	width: 230px;
+}
+
+.formulario .form-horizontal .col-md-4 {
+	width:auto;
+	padding: 5px 0;
+}
+
+.formulario .form-horizontal .btn-success{
+	float: right;
+    margin-right: 10px;
+    font: 11px arial;
+    height: 45px;
+}
